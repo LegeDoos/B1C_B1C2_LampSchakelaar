@@ -1,0 +1,24 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>230</x><y>120</y><w>180</w><h>270</h></coordinates><panel_attributes>Lamp
+-
+* Status
+Materiaal
+Warmte
+* Lichtopbrengst (Lm)
+Licktkleur (K)
+Vermogen (W)
+Afmetingen
+Levensduur
+Fitting
+Soort
+--
+* Aanzetten()
+* Uitzetten()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>120</y><w>190</w><h>190</h></coordinates><panel_attributes>Schakelaar
+-
+Grootte
+* Ingeschakeld : bool
+-
+* Omschakelen()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>180</y><w>220</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..n
+&lt; bedient</panel_attributes><additional_attributes>200;20;10;20</additional_attributes></element></diagram>
