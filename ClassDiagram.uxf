@@ -1,4 +1,15 @@
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>230</x><y>120</y><w>180</w><h>270</h></coordinates><panel_attributes>Lamp
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>18</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>216</x>
+      <y>126</y>
+      <w>324</w>
+      <h>486</h>
+    </coordinates>
+    <panel_attributes>Lamp
 -
 * Status
 Materiaal
@@ -10,15 +21,69 @@ Afmetingen
 Levensduur
 Fitting
 Soort
+* Schakelaar : Schakelaar
 --
 * Aanzetten()
 * Uitzetten()
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>120</y><w>190</w><h>190</h></coordinates><panel_attributes>Schakelaar
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>882</x>
+      <y>126</y>
+      <w>342</w>
+      <h>342</h>
+    </coordinates>
+    <panel_attributes>Schakelaar
 -
 Grootte
 * Ingeschakeld : bool
+* Lampen : List&lt;Lamp&gt;
 -
-* Omschakelen()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>180</y><w>220</w><h>50</h></coordinates><panel_attributes>lt=-
+* Omschakelen()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>522</x>
+      <y>234</y>
+      <w>396</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-
 m1=1
 m2=1..n
-&lt; bedient</panel_attributes><additional_attributes>200;20;10;20</additional_attributes></element></diagram>
+&lt; bedient</panel_attributes>
+    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>882</x>
+      <y>594</y>
+      <w>342</w>
+      <h>306</h>
+    </coordinates>
+    <panel_attributes>Dimschakelaar
+-
+HoeveelheidStroom
+-
+Dimmen()
+Versterken()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>990</x>
+      <y>450</y>
+      <w>54</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+</diagram>
