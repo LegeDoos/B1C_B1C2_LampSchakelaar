@@ -33,6 +33,8 @@ namespace B1C_B1C2_LampSchakelaar
         /// </summary>
         public int LichtOpbrengst { get; private set; }
 
+        public Schakelaar Schakelaar{ get; set; }
+
         /// <summary>
         /// Zet de lamp aan
         /// </summary>

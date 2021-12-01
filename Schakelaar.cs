@@ -9,7 +9,7 @@ namespace B1C_B1C2_LampSchakelaar
     /// <summary>
     /// Een schakelaar die een lamp kan aanzetten
     /// </summary>
-    class Schakelaar
+    public class Schakelaar
     {
         /// <summary>
         /// Geeft aan of de schakelaar is ingeschakeld

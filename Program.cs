@@ -23,6 +23,9 @@ namespace B1C_B1C2_LampSchakelaar
 
             Console.WriteLine($"Aantal lampen in de lijst {schakelaar.Lampen.Count}");
 
+
+            Dimschakelaar dimSchakelaar = new Dimschakelaar();
+            
         }
     }
 }
