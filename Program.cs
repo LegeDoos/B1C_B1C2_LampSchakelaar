@@ -7,9 +7,7 @@ namespace B1C_B1C2_LampSchakelaar
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
-            string mijnNaam = "Rob";
+            Console.WriteLine("Voorbeeld lamp en schakelaar");
 
             Schakelaar schakelaar = new Schakelaar();
             schakelaar.Lampen = new List<Lamp>();
@@ -22,7 +20,6 @@ namespace B1C_B1C2_LampSchakelaar
             schakelaar.Omschakelen();
 
             Console.WriteLine($"Aantal lampen in de lijst {schakelaar.Lampen.Count}");
-
 
             Dimschakelaar dimSchakelaar = new Dimschakelaar();
             

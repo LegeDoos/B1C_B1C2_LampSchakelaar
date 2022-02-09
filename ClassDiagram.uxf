@@ -11,20 +11,20 @@
     </coordinates>
     <panel_attributes>Lamp
 -
-* Status
-Materiaal
-Warmte
-* Lichtopbrengst (Lm)
-Licktkleur (K)
-Vermogen (W)
-Afmetingen
-Levensduur
-Fitting
-Soort
-* Schakelaar : Schakelaar
++Status
++Materiaal
++Warmte
++Lichtopbrengst (Lm)
++Licktkleur (K)
++Vermogen (W)
++Afmetingen
++Levensduur
++Fitting
++Soort
+-Schakelaar : Schakelaar
 --
-* Aanzetten()
-* Uitzetten()
++Aanzetten()
++Uitzetten()
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -38,11 +38,11 @@ Soort
     </coordinates>
     <panel_attributes>Schakelaar
 -
-Grootte
-* Ingeschakeld : bool
-* Lampen : List&lt;Lamp&gt;
++Grootte
++Ingeschakeld : bool
+-Lampen : List&lt;Lamp&gt;
 -
-* Omschakelen()</panel_attributes>
++Omschakelen()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
